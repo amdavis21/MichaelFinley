@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+body, html {
+	height: 100%;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+#header{
+padding-bottom:40px;
+background-color: blue;
+}
+li:hover{
+border-bottom: 4px lightgreen;
+color: #FFFFFF;
+}
+#footer{
+	bottom: 0;
+	background-color: #16A810;
+	text-align: center;
+	font-family: 'Grenze Gotisch', cursive;
+}
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	height: 50%;
+	background-position: center;
+	background-repeat: orange ;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    text-align: center;
+    margin: 10px;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+            <h1 id="homeHeader">Phocci Loccos Wings</h1>        	<ul>
+
+            	<li id="home">home</li>
+            	<li id="about">About Us</li>
+            	<li id="menu">Menu</li>
+            	<li id="location">Location</li>
+        	</ul>
+        </div>
+<!-- ABOUT US -->
+<div class="hero-image">
+
+        	<div class="hero-text">
+            	<h1>Phocci Loccos</h1>
+            	<p>
+            	    Our tender juicy chicken with a variety of flavors to choose from!!!
+            	</p>
+        	</div>
+
+        </div>
+<div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>we make chicken that people love. the best chicken you will ever have!!!</p>
+            </div>
+
+            <div class="column">
+            <h2>Founders</h2>
+            <p>this chicken truck was founded by a young entreprenuer by the name of Luke H. who wanted to share his love and passion about his food with his new chicken truck🍗🍗🍗.</p>
+            </div>
+
+        </div>
+<!-- MENU -->
+ <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+            <h3>Entrees</h3>
+            <ul>
+                <li>bone in wings
+               <br> 8pc$6/12$10/16$14 </li>
+                <li>boneless chicken wings 8pc$7/12$11/16$15</li>
+                <li>drumsticks
+                <br>2$1.50/4$3.50/6$5.50<
+                <li>half a chicken $7.50</li>
+            </ul>
+
+            <br>
+            <h3>Sides</h3>
+            <ul>
+                <li> carrot or celery sticks ¢.99</li>
+                <li>Salad $4</li>
+                <li>Fries $2.50</li>
+                <li></li>
+            </ul>
+
+            <br>
+ <h3>Desserts</h3>
+            <ul>
+                <li>triple choco brownies $3/li>
+            </ul>
+
+            <br>
+
+            <h3>Drinks</h3>
+            <ul>
+                <li>Fountain drinks S$1.50/M$1.80/L$2.10</li>
+                <li>water cup $0</li>
+                <li>glass drink $2.50</li>
+                <li>2 liter $3</li>
+            </ul>
+             <br>
+
+        </div>
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>469-667-7454</p>
+	<p>phocciloccoswings@gmail.com</p>
+	<p id="locationHeader">Location:home</p>
+</div>
+<img height="500px" src="https://media0.giphy.com/media/DvMHwFYLVHlZe/200.gif">
+</body>
+
+<p>best wings you will ever have</p>
+<script src="./main.js"></script>
+</html>

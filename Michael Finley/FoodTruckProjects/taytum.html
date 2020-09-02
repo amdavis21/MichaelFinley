@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+    <head><link href="./style.css" rel="stylesheet" />
+<style>@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+
+body, html {
+	height: 100%;
+}
+
+#homeheader{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+    font-family: 'Gayathri', sans-serif;
+    color: white;
+}
+
+li{
+    float: left;
+    width: 25%;
+    font-family: 'Gayathri', sans-serif;
+    color: black;
+}
+
+#header{
+    background-color: #7D0808;
+    padding-bottom: 7%;
+    font-family: 'Gayathri', sans-serif;
+}
+
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#footer{
+    bottom: 0;
+    background-color: #7D0808;
+    text-align: center
+
+}
+
+.navItem:hover{
+    border-bottom: 4px solid white;
+    color: #FFFFFF;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    text-align: center;
+    margin: 10px;
+}
+
+.navItem{
+    font-family: 'Gayathri', sans-serif;
+}
+
+#footer{
+    color: white;
+}
+ </style>
+    </head>
+
+    <body>
+      <form>
+     <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+     <!-- HEADER -->
+        <div id="header">
+            <h1 id="homeheader"> Hellava Good Ramen</h1>
+            <ul>
+                <li class="navItem" id="home">Home</li>
+                <li class="navItem" id="about">About Us</li>
+                <li class="navItem" id="menu">Menu</li>
+                <li class="navItem" id="location">Location</li>
+            </ul>
+        </div>
+
+<!-- ABOUT US -->
+<div class="hero-image">
+        	<div class="hero-text">
+            	<h1>Hellava Good Ramen</h1>
+            	<p>ラーメンが車輪に乗っているところ</p>
+            	<p>Where Ramen is on Wheels!</p>
+        	</div>
+        </div>
+
+<div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>I decided to make a ramen food truck because I felt like it would be out of the box.  It’s not very easy to get ramen on a regular business day. That’s why instead i’m going to bring the ramen to them. We also offer a Manga store in the back of our truck.</p>
+
+            </div>
+
+            <div class="column">
+            <h2>Founders</h2>
+            <p>Taytum Stfford</p>
+            <p>Venera Stafford</p>
+
+            </div>
+
+        </div>
+<!-- MENU -->
+        <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+            <h3>Appetizers</h3>
+            <ul>
+                <li>Edamame $3</li>
+                <li>Avacado Roll $4</li>
+                <li>Dumplings $3</li>
+                <li>Skewers $3</li>
+
+            </ul>
+
+            <br>
+
+            <h3>Entrees</h3>
+            <ul>
+                <li>Kyoto Ramen $9</li>
+                <li>Miso Ramen $9</li>
+                <li>Veggie Ramen $9</li>
+
+            </ul>
+
+            <br>
+
+             <h3>Desserts</h3>
+            <ul>
+                <li>Mochi $5</li>
+                <li>Banana Tempura $7</li>
+            </ul>
+
+            <br>
+
+        </div>
+
+    <!-- FOOTER-->
+    <div id="footer">
+	    <h3>Contact Information</h3>
+	    <p>999-999-9999</p>
+    	<p>hellavagood@example.com</p>
+	<p id="locationHeader">Location: Dallas Farmers Market</p>
+</div>
+<script src="./main.js"></script>
+</body>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" /><style>@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+body, html {
+	height: 100%;
+}
+
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+
+li{
+    float: left;
+    width: 25%;
+}
+
+
+.navItem:hover{
+    border-bottom: 4px solid black;
+    color: #FFFFFF;
+}
+
+
+#header{
+    padding-bottom:40px;
+    background-color: pink;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.sheknows.com/wp-content/uploads/2019/02/pizza.jpg?w=695&h=391&crop=1");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border:10px solid pink;
+    font-family: 'Amatic SC', cursive;
+}
+
+.column{
+    text-align: center;
+    margin: 10px;
+}
+
+.menu{
+    background-color:lightgrey;
+    font-family: 'Amatic SC', cursive;
+}
+
+#footer{
+	bottom: 0;
+	background-color:lightgrey;
+	text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+ </style></head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+            <h1 id="homeHeader">SILLY PIZZA</h1>
+        	<ul>
+            	<li class="navItem" id="home">Home</li>
+            	<li class="navItem" id="about">About Us</li>
+            	<li class="navItem" id="menu">Menu</li>
+            	<li class="navItem" id="location">Location</li>
+        	</ul>
+        </div>
+<!-- ABOUT US -->
+
+     <div class="hero-image">
+        	<div class="hero-text">
+            	<h1>SILLY PIZZA</h1>
+            	<p> Where culture meets Pizza!</p>
+        	</div>
+
+        </div>
+        <div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+<p> The Silly Pizza Truck consist of the best gourmet pizza.The Pizza is made from scracth, gluten free and vegan friendly. Our pizza is based off of different cultures, making each pizza bite full of flavor. Our goal is to spread the different cultures in our pizza to the Dallas Metroplex and bring people together.     </p>
+            </div>
+                    <div class="column">
+            <h2>Founders</h2>
+<p>This Gourmet Pizza Truck was founded by a young entrepreneur by the name of Sianna, who wanted to spread her passion of sharing     cultures with others.</p>
+            </div>
+
+        </div>
+
+<!-- MENU -->
+
+    <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+            <h3> Pizza Sizes</h3>
+            <ul>
+                <li>Small $5</li>
+                <li>Medium $10</li>
+                <li>Large $15</li>
+            </ul>
+
+            <br>
+
+            <h3>Entrees</h3>
+            <ul>
+                 <li>Classic Asian</li>
+                <li>Tangy Sicillian</li>
+                <li>Southern Cowboy</li>
+                <br><br>
+                <li>Famous Samba </li>
+                <li>The Stretchy </li>
+                <li>The All Mighty</li>
+            </ul>
+
+            <br>
+
+             <h3>Sides</h3>
+            <ul>
+                <li> Cheesy Sticks (Ten) $4</li>
+                <li>The perfect roll (Ten) $4</li>
+            </ul>
+
+            <br><br>
+
+            <h3>Drinks</h3>
+            <ul>
+                <li>Soft Drinks $2</li>
+                <li>Lemonade $2</li>
+                <li>Limeade $2</li>
+                <li>Sweet tea/unsweet $2</li>
+                <li>Water $2</li>
+                <br><br>
+            </ul>
+
+        </div>
+
+        <br><br>
+
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>1-800-SILLYP</p>
+	<p>SILLYPIZZA.com</p>
+	<p id="locationHeader">Location: Downtown Dallas Metroplex </p>
+</div>
+
+</body>
+<script src="./main.js"></script>
+</html>

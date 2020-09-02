@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+ul{
+	list-style-type: none;
+	width: 100%;
+	}
+
+	li{
+	float: left;
+	width: 25%;
+	}
+
+	li:hover{
+	border-bottom: 4px solid black;
+	color: #FFFFFF;
+	}
+	#header{
+	padding-bottom:40px;
+	background-color: red;
+	}#footer{
+		bottom: 0;
+		background-color: #84D0F2;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">pizza by juan for you</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+<!-- ABOUT US -->
+
+<!-- MENU -->
+
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>999-999-9999</p>
+	<p>.com</p>
+	<p id="locationHeader">Location: Dallas Farmers Market</p>
+</div>
+</body>
+<script src="./main.js"></script>
+</html>

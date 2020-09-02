@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet" />
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+        body, html {
+        	height: 100%;
+        }
+
+        /* Navbar */
+        #navList{
+            list-style-type: none;
+            width: 100%;
+        }
+
+          ul{
+            list-style-type: none;
+            width: 100%;
+        }
+
+        li{
+            float: left;
+            width: 25%;
+        }
+        .navItem{
+            float: left;
+            width: 25%;
+        }
+
+        .navItem:hover{
+            border-bottom: 4px solid black;
+            color: #FFFFFF;
+        }
+
+
+        /*  Id Styling */
+        #header{
+            padding-bottom: 40px;
+            background-color: #C51417;
+        }
+        .hero-image {
+        	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5000);
+        	height: 50%;
+        	background-position: center;
+        	background-repeat: no-repeat;
+        	background-size: cover;
+        	position: relative;
+        }
+
+        .hero-text{
+            text-align: center;
+        	position: absolute;
+        	top: 50%;
+        	left: 50%;
+        	transform: translate(-50%, -50%);
+        	color: white;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+        }
+        .column{
+            text-align: center;
+            margin: 10px;
+        }
+        #footer{
+        	bottom: 0;
+        	background-color: #F1FF00;
+        	text-align: center;
+        }
+
+        </style>
+    </head>
+
+    <body>
+      <form>
+     <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+        <!-- HEADER -->
+        <div id="header">
+            <h1 id="homeHeader">jurassic truck</h1>
+        	<ul id="navList">
+            	<li class="navItem" id="home">Home</li>
+            	<li class="navItem" id="about">About Us </li>
+            	<li class="navItem" id="menu">Menu</li>
+            	<li class="navItem" id="location">Location</li>
+        	</ul>
+        </div>
+
+        <!-- ABOUT US -->
+        <div class="hero-image">
+
+        	<div class="hero-text">
+            	<h1>jurassic food!</h1>
+            	<p>Where organic produce meets all kinds fun creative prehistoric flavor!</p>
+        	</div>
+
+        </div>
+         <div class="row">
+
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>
+                  i wanted to go back in time to my childhood and bring back all the memories when i was a kid and you guessed it my childhood was about dinosaurs! i wanted to help my community by selling delicous food to people and showing them that its never to late to go back in time and still be a kid!
+                </p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>
+                   i am the founnder of jurassic truck me angel gonzalez is here to give you an explosion of flavor and joy
+                </p>
+            </div>
+
+        </div>
+    <!-- MENU -->
+     <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+             <h3>entrees</h3>
+            <ul>
+                <li>the T-rex $7</li>
+                <li>spino's meal $6</li>
+                <li>grassy green greens $5</li>
+                <li>    .   </li>
+            </ul>
+
+            <h3>sides</h3>
+            <ul>
+                <li>Rice and beans $1</li>
+                <li>cup of fruits$3</li>
+                <li>Fries $2</li>
+            </ul>
+
+            <br>
+
+            <h3>Desserts</h3>
+            <ul>
+                <li>cookies $1 </li>
+                <li> Churros $4</li>
+                <li>cupcakes $4</li>
+            </ul>
+
+            <br>
+
+            <h3>Drinks</h3>
+            <ul>
+                <li>Horchata $2</li>
+                <li>Water $2</li>
+                <li>any size soft drink $1.50</li>
+                <li>lemonade $3</li>
+                </ul>
+        </div>
+        <br><br>
+
+        <!-- FOOTER-->
+        <div id="footer">
+        	<h3>Contact Information</h3>
+        	<p>999-999-9999</p>
+        	<p>jurassictruck@example.com</p>
+        	<p id="locationHeader">Location: Dallas Farmers Market</p>
+        </div>
+
+    </body>
+    <script src="./main.js"></script>
+</html>

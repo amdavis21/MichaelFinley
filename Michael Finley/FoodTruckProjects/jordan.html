@@ -1,0 +1,138 @@
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+body, html {
+	height: 100%;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://delicrunch.co/wp-content/uploads/2018/05/yummy-smoothie-recipes-without-yogurt-.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+ul{
+list-style-type: none;
+width: 100%;
+}
+
+li{
+float: left;
+width: 25%;
+}
+
+.header:hover{
+border-bottom: 4px solid black;
+color: #FFFFFF;
+}
+
+#header{
+padding-bottom:40px;
+background-color: #00A1B0;
+}
+#footer{
+bottom: 0;
+background-color: rgb(168,68,118,.7);
+text-align: center;
+text-shadow: #9B9FB5 1px 1px;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">Smoothie Factory</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+
+<!-- ABOUT US -->
+
+<div class="hero-image">
+	<div class="hero-text">
+	<h1>SmoothieFactory</h1>
+	<p>Where fruit makes you happy!</p>
+	</div>
+</div>
+<div class="row">
+<div class="column">
+	<h2 id="aboutHeader">About Us</h2>
+	<p>Smoothie Grovvy Truck has differnt types of smoothies that are healthy for you.We will have Differnt things other than smoothies but smoothies are our main thing that we sure. We hope that you like our food and drinks. </p>
+</div>
+
+<div class="column">
+<h2>Founders</h2>
+<p>The founder of this business is Jordan Reyes. I decided to choose this business because at the same time a smoothie has all differnt things that you can put in it, and because a smoothie is very filling and healthy.Thats why i choose to do a smoothie business.</p>
+</div>
+
+</div>
+
+<!--MENU -->
+<div class="menu">
+<h2 id="menuHeader">Menu</h2>
+<h3>Entrees</h3>
+<ul>
+<li>Strawberry Banana $2</li>
+<li>Mango Pineapple $2</li>
+<li>Spinach Blueberry $2</li>
+<li>Orange Lemon $2</li>
+
+</ul><br>
+
+
+
+<h3>Sides</h3>
+<ul>
+<li>Rice and beans $1</li>
+<li>Salad with Ranch dressing $3</li>
+<li> $2</li>
+</ul><br><br>
+<h3>Desserts</h3>
+
+<ul>
+<li>Fruit salad $4</li>
+<li>Brownies $2</li>
+<li>Cookies $2</li>
+</ul><br>
+
+
+
+<h3>Drinks</h3>
+
+<ul>
+<li>Lemondade $4</li>
+<li>Sodas $2</li>
+<li>Water $2</li>
+</ul>
+</div><br><br>
+
+<!-- FOOTER-->
+
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>527-698-1634</p>
+	<p>sombrerotaco@example.com</p>
+	<p id="locationHeader">Location: Dallas Farmers Market</p>
+</div>
+
+</body>
+<script src="./main.js"></script>
+</html>

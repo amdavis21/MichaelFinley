@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>body, html {
+	height: 100%;
+	}
+	ul{
+		list-style-type: none;
+		width: 100%;
+	}
+	li{
+	float: left;
+	width: 25%;
+	}
+	li:hover{
+	border-bottom:4px white;
+	   color:#ffffff;
+	}
+	#header{
+		padding-bottom:40px;
+		background-color: purple;
+
+
+		}
+		.hero-image {
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://media-cdn.tripadvisor.com/media/photo-s/14/79/50/11/sticky-bbq-rids-for-2.jpg');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	}
+
+	.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	}
+	#footer{
+	bottom: 0;
+	background-color: purple
+	;
+	text-align: center;
+	}  </style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">Betty's Brillent Bar B Q</h1>
+  <ul>
+        <li id="home">Home</li>
+        <li id="about">About Us</li>
+        <li id="menu">Menu</li>
+        <li id="location">Location</li>
+  </ul>
+</div>
+<!-- ABOUT US -->
+
+ <div class="hero-image">
+        <div class="hero-text">
+            <h1>Betty's Brillent Bar B Q</h1>
+            <p>The best Barbq in the U.S.A!!</p>
+        </div>
+        </div>
+ <div class="row">
+            <div class="column">
+            <h2 id="aboutHeader">About Us</h2>
+            <p>My food truck so souly made for giving back to people and the couminaty </p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>The founders of this bussines that wanted to sell food to rais money for children hospital and 35% of the founds go to childrens hospital.</p
+            </div>
+
+        </div>
+<div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+        </div>
+ <h3>Entrees</h3>
+            <ul>
+                <li>bacon chesse burger $6.99</li>
+                <li> Inpossibel burger$2</li>
+                <li>fried ribs $3.99</li>
+                <li>pull pork sandwitch $2</li>
+            </ul>
+            <br>
+  <h3>Sides</h3>
+            <ul>
+                <li>chips $1</li>
+                <li> potato Salad $3</li>
+                <li>salad $2</li>
+            </ul>
+            <br>
+
+
+            <h3>Desserts</h3>
+
+            <ul>
+                <li>cookies $4</li>
+                <li>Churros $4</li>
+                <li>Brookie $4</li>
+            </ul>
+            <br>
+ <h3>Drinks</h3>
+            <ul>
+                <li>sprite $2</li>
+                <li>pepsi $2</li>
+                <li>Water $1.50</li>
+            </ul>
+ <br>
+        <br>
+
+<!-- MENU -->
+
+<!-- FOOTER-->
+<div id="footer">
+<h3>Contact Information</h3>
+<p>907-456-6789</p>
+<p>Taryn.S76@gmail.com</p>
+<p id="locationHeader">Location: Dallas Farmers Market</p>
+
+
+</div>
+   </body>
+   <script src="./main.js"></script>
+</html>

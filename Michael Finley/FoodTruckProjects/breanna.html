@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+body, html {
+	height: 100%;
+}
+ul{
+list-style-type: none;
+width: 100%;
+}
+li{
+float: left;
+width: 25%;
+}
+li:hover{
+border-bottom: 4px solid black;
+color: #FFFFFF;
+}
+#header{
+padding-bottom:40px;
+background-color: #B0009A;
+}
+#footer{
+	bottom: 0;
+	background-color: #D8C81B;
+	text-align: center;
+}
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2016/10/10/01/58/donut-1727498_960_720.png");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">Frosted</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+<!-- ABOUT US -->
+<div class="hero-image">
+	<div class="hero-text">
+	<h1>Frosted</h1>
+	<p>Where specialty desert meets donuts!</p>
+	</div>
+</div>
+<div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>Frosted is a specilty donut truck and it is also 24/7 we have all the originals and donuts with our own littl twist you can find us at the publc library we hope to target those late night cravings we have options for everyone vegan vegitarians as well as gluten free so every one has a chance to try our food </p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>This food truck is famiy owned
+<!-- MENU -->
+ <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+
+
+        </div>
+
+ <h3>Our Specilty Donuts</h3>
+            <ul>
+                <li>Choco Holic $1.49</li>
+                <li>Black Velvet $1.49</li>
+                <li>Smore $1.49</li>
+                <li>strawberry cheese cake $1.49</li>
+                <li>Porky $1.49</li>
+                    <li>Burgerz $1.49</li>
+                        <li>grilled cheese donut $1.49</li>
+                        <li>gluten free glaze<li>
+                            <li>All the originals<li>
+
+            </ul>
+            <br>
+
+<h3>Sides</h3>
+<ul>
+     <li>Apples .89</li>
+     <li>Bananas .89</li>
+     <li>pear .89</li>
+     <li>kolaches $1.00<li>
+</ul>
+<br>
+<h3>Drinks</h3>
+
+<ul>
+<li>fountain drinks $2</li>
+<li>Water$1</li>
+<li>Milk $2</li>
+<li>Chocolate Milk$2<li>
+</ul>
+
+
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>999-999-9999</p>
+	<p>frostedco@example.com</p>
+	<p id="locationHeader">Location: Carrollton
+	Public Library</p>
+</div>
+<script src="./main.js"></script>

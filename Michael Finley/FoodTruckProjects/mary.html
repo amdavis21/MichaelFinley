@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head><link href="./style.css" rel="stylesheet" />
+<style>@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+body, html {
+    height: 100%;
+
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+float: left;
+width: 25%;
+}
+
+.navItem:hover{
+border-bottom: 4px solid black;
+color: #FFFFFF;
+}
+
+ #header{
+    padding-bottom:40px;
+    background-color: #71D4E0;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2019/01/29/18/05/burger-3962996_960_720.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{text-align:center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.column{
+    text-align :center ;
+    margin: 10px;
+    width:40%;
+}
+#footer{
+	bottom: 0;
+	background-color:#C0B8CB;
+	text-align: center;
+}
+
+ </style>
+  </head>
+
+   <body>
+     <form>
+    <input type="button" value="Go back!" onclick="history.back()">
+   </form>
+        <!-- HEADER -->
+        <div id="header">
+             <h1 id="homeHeader">Burger on the house </h1>
+        <ul id="navList">
+            	<li class="navItem" id="home">
+            	    Home
+            	</li>
+            	<li class="navItem" id="about">
+            	    About Us
+            	</li>
+            	<li class="navItem" id="menu">
+            	    Menu
+            	</li>
+            	<li class="navItem" id="location">
+            	    Location
+            	</li>
+        	</ul>
+        </div>
+
+        <!-- ABOUT US -->
+
+        <div class="hero-image">
+        	<div class="hero-text">
+            	<h1>Sombreros</h1>
+            	<p>Where organic produce meets burger flavor!</p>
+        	</div>
+        </div>
+
+
+<div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>Burger on the house is where we burger we also sell other thing with the burger and we have a delicious sauces and all other sauces that you want we also want to make our customer  special so we serve in a very special way.or if is they are too busy they can order online and it will get right to them .</p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>This food truck was founder by Mary why i named my food truck Burger on the house is because i sell delicouse buger that taste good .  why is im selling burger is to show people that burger is a fast food that you can eat without wasting anytime expeciall for people that are always busy and don't have time to eat lunch well burger on the house is where you should come and eat that delicouse fast food. </p>
+            </div>
+
+        </div>
+
+           <!-- Meun -->
+         <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+            <h3>food</h3>
+            <ul>
+                <li>fish burger $3</li>
+                 <li>chicken burger $3</li>
+                <li>beef burger $5</li>
+                 <li>turkey burger $5</li>
+               <li>vegan tofu burger $5</li>
+                <li>black bean burger $5</li>
+            </ul>
+            <br> <br> <br> <br>
+                 <h3>sides</h3>
+            <ul>
+                <li>salad $4</li>
+                 <li>fries $2</li>
+                <li>fruit cup $2</li>
+                 <li>fruit salad $5</li>
+            </ul>
+            <br> <br> <br> <br>
+             <h3>Drinks</h3>
+            <ul>
+                <li>pepsi $3</li>
+                 <li>Dr.pepper $3</li>
+                <li>coca cola $3</li>
+                 <li>fanta $3</li>
+                <li>sprite $3</li>
+                 <li>water $2</li>
+            </ul>
+          <br> <br> <br> <br>
+          <h3>Desseert</h3>
+          <li>ice cream$2</li>
+          <li>Doughnuts$3</li>
+          <li>ice cream rolls$4</li>
+          <li>pies$3</li>
+        </div>
+
+
+        <!-- FOOTER-->
+        <div id="footer">
+	<h3>Contact Information</h3>
+	<p>690-208-1444</p>
+	<p>Burger on the house@gmail.com</p>
+    <p id="locationHeader">Location:plano </p>
+    </div>
+
+
+  </body>
+  <script src="./main.js"></script>
+</html>

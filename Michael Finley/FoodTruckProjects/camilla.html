@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+body, html {
+	height: 100%;
+}
+
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+li:hover{
+border-bottom: 4px solid black;
+color: #24BFA1;
+}
+#header{
+    padding-bottom:40px;
+    background-color: red;
+}.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://mykidslickthebowl.com/wp-content/uploads/2017/09/paprika-chicken-drums-featured-720x540.jpg");
+	height:50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: brown;
+}
+#footer{
+	bottom:0 ;
+	background-color: #A8216D;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER --><div id="header">
+<h1 id="homeHeader">oh my chicken </h1>
+
+
+	<ul id="navList">
+            	<li class="navItem" id="home">
+            	    Home
+            	</li>
+            	<li class="navItem" id="about">
+            	    About Us
+            	</li>
+            	<li class="navItem" id="menu">
+            	    Menu
+            	</li>
+            	<li class="navItem" id="location">
+            	    Location
+            	</li>
+        	</ul>
+</div>
+
+
+
+
+<!-- ABOUT US -->
+
+<div class="hero-image">
+        	<div class="hero-text">
+            	<h1>oh my chicken</h1>
+            	<p>Where u can eat chicken all day!</p>
+        	</div>
+        </div>
+ <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>
+            	    we make the best chicken ever and we mix up the flavors and mix up food we mke this chiken healthy as well
+                </p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>
+                  Hi my name is camila and i was the founder of the best selling piece of chicken , I was young when i lked chicken as i say i am a carnivour and i htink i hve the best chciken but i also wnt people to like my chicken
+                </p>
+            </div>
+
+
+
+<!-- MENU -->
+ <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+        </div>
+
+         <h3>Entrees</h3>
+            <ul>
+                <li>spicy chicken  $10</li>
+                <li>carne asada  $5</li>
+                <li>chicken tenders $9</li>
+                <li>chicken legs  $10</li>
+               <li>chicken salad $12</li>
+                  <li>chicken burgers $10</li>
+                  <li>sphagettie and meat balls $10</li>
+                  <li>chicken alfredo</li>
+
+                  <li>apple pie $14</li>
+ </ul>
+
+
+            <br>
+<!-- FOOTER-->
+<div id="footer">
+        	<h3>Contact Information</h3>
+        	<p>233-448-908</p>
+        	<p>soh my chiken.com</p>
+        	<p id="locationHeader">Location: Dallas Farmers Market</p>
+        </div>
+
+</body>
+<script src="./main.js"></script>
+</html>

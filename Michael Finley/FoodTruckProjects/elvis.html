@@ -1,0 +1,139 @@
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+body, html {
+	height: 100%;
+}
+ul{
+list-style-type: none;
+width: 100%;
+}
+
+li{
+float: left;
+width: 25%;
+}
+
+.header:hover{
+border-bottom: 4px solid black;
+color: #FFFFFF;
+}
+
+#header{
+padding-bottom:40px;
+background-color: red;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_960_720.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+#footer{
+	bottom: 0;
+	background-color: #84D0F2;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">The pizza you like that you deserve</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+<!-- ABOUT US -->
+<div class="hero-image">
+	<div class="hero-text">
+	<h1>The pizza you like that you deserve</h1>
+	<p>The pizza you make !</p>
+	</div>
+</div>
+<div class="row">
+
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>we make healtyh pizza that you like  our pizza is also  cheap and what makes this food truck  the best food truck is that you can make your own pizza in your food truck we also have drinks and  cup cakes. </p>
+
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>
+  Hi my name is Elvis and opened this food truck becuse pizza is healty in some i opend this food truck so people can have fun by putting thier ingrodient on pizza and putting it on thier the oven in New york style.
+                </p>
+            </div>
+</div>
+<!-- MENU -->
+<div class="menu">
+<h2 id="menuHeader">Menu</h2>
+<h3>Entrees</h3>
+<ul>
+<li>custum pizza $8</li>
+<li> two meats pizza $8</li>
+<li>organic pizza $10</li>
+<li>thin crust pizza $5</li>
+
+</ul><br>
+
+
+
+<h3>topings</h3>
+<ul>
+            <li>pepeorni</li>
+            <li> bell pepper</li>
+            <li>black olvis </li>
+            <li>spinach</li>
+            <li>bananna peppers </li>
+            <li> pineapple</li>
+        </ul>
+<br>
+<h3>Desserts</h3>
+
+<ul>
+<li>cup cake  $4</li>
+<li>ice crame $4</li>
+<li>brownies $4</li>
+</ul><br>
+
+
+
+<h3>Drinks</h3>
+
+<ul>
+<li>water $1</li>
+<li>sprite $2</li>
+<li>7 up $2</li>
+</ul>
+</div><br><br>
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>469-777-777</p>
+	<p>pizzayoudeserve@example.com</p>
+	<p id="locationHeader">Location: Dallas Farmers Market</p>
+</div>
+</body>
+<script src="./main.js"></script>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+body, html {
+	height: 100%;
+}
+
+ul{
+list-style-type: none;
+width: 100%;
+}
+li{
+    float:left;
+    width: 25%;
+}
+
+li:hover{
+    border-bottom: 4px solid black;
+    color: #FFFFFF;
+}
+
+#header{
+padding-bottom:40px;
+background-color: yellow;
+}
+
+#footer{
+	bottom: 0;
+	background-color: #06B000;
+	text-align: center;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246__340.jpg');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">The cafetorium</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+<!-- ABOUT US -->
+<div class="hero-image">
+	<div class="hero-text">
+	<h1>Burgers</h1>
+	<p>Where organic produce meets American flavor!</p>
+	</div>
+</div>
+<div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p> The cafetorium Truck consists of authentic American food blended with local spices. Our main signature dish is our Hot chetto Burger. Our goal is to spread our culture through our community and the city at large by bringing together delicious American tradtions.</p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>This Burger wing truck was brought by a young entrepreneur named Tom. To start this business Tom thought of this  idea to put designs on the truck so it can look cool. I could have not start a food truck without him.
+</div>
+</div>
+<!-- MENU -->
+
+ <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+
+
+
+         <h3>Entrees</h3>
+            <ul>
+                <li>Hot Chetto Burger $7</li>
+                <li>Sweet and spicy wings $6.50</li>
+                <li>Vegan Burger $7.50</li>
+                <li>Grilled Chicken Burger$7.25</li>
+                <li>Spicy wings $6.75</li>
+                <li>Sweet wings $6.75</li>
+
+            </ul>
+            <br>
+
+<h3>Sides</h3>
+<ul>
+<li>Salad $1</li>
+<li>Fruit cup $1</li>
+<li>Fries $2</li>
+<li>Chips $1</li>
+<li>Poatao Fries $2.25</li>
+<li>Chicken Fries $ 2.50</li>
+</ul><br>
+<h3>Desserts</h3>
+
+<ul>
+<li>Ice cream $1.50</li>
+<li>Cookies $1.00</li>
+<li>Cake 1.75</li>
+<li>Cup Cakes $1.25</li>
+</ul><br>
+
+<h3>Drinks</h3>
+
+<ul>
+<li>Milk $0.50</li>
+<li>Juice $1.50</li>
+<li>Water $0.50</li>
+<li>Soda $1.50</li>
+</ul>
+</div>
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>012-345-6789</p>
+	<p>burgerwingsfriesguys@example.com</p>
+	<p id="locationHeader">Location: Sprouts Farmers Market</p>
+</div>
+</body>
+<script src="./main.js"></script>
+</html>

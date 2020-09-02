@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head><link href="./style.css" rel="stylesheet" />
+<style>@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+body, html {
+    height: 100%;
+}
+
+/*Element Styleing*/
+ul{
+list-style-type: none;
+width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+li:hover{
+border-bottom: 4px solid red;
+color: #FFF318;
+}
+/*Id Styleing*/
+#header{
+padding-bottom:40px;
+background-color: orange;
+}
+
+/*About Me*/
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2015/04/06/16/21/korean-food-709606_960_720.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; }
+
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: yellow;
+}
+
+
+#footer{
+    bottom: 0;
+    background-color: #FF0E51;
+    text-align: center;
+}
+
+.column{
+    text-align: center;
+    margin: 10px;
+    width: 40%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    color: red;
+    background-color: orange;
+
+}
+</style>
+    </head>
+    <body>
+      <form>
+     <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+    <!-- HEADER -->
+    <div id="header">
+<h1 d="homeHeader">The Spice</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+
+    <!-- ABOUT US -->
+    <div class="hero-image">
+	<div class="hero-text">
+	<h1>The Spice</h1>
+	<p>Where the spice is real!</p>
+	</div>
+	</div>
+<div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>The Spice food truck consists of Asian spicy food blended with organic ingredients. Our main signature dish is our Korean spicy Noodles. Our goal is to spread our spicy culture through our community and the city at large by bringing together delicious Asian food.</p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>This food truck was first founded by Christopher Umanzor who desired to spread spicy Asian food around the city which is rare and he also had a goal to make he food truck business more  diverse.
+            </div>
+            </div>
+
+
+
+    <!-- MENU -->
+    <div class="menu">
+
+          <h2 id="menuHeader">Menu</h2>
+
+           <h3>Entrees</h3>
+            <ul>
+                <li>Spicy Thai Noodles 4.66</li>
+                <li>Fried Tofu $2.99</li>
+                <li>Fried Calamari with Cobb salad $6.99</li>
+                <li>Korean Spicy Noodles $8.66</li>
+
+            </ul>
+            <br>
+
+
+            <h3>Sides</h3>
+            <ul>
+                <li>Jersey Salad $2</li>
+                <li>Braised Fennel & Shallots $2</li>
+                <li>Cobb salad$2</li>
+            </ul><br>
+
+      <h3>Desserts</h3>
+
+        <ul>
+            <li>Coffee Sorbet $4</li>
+            <li>Coconut Pudding,Lychee & Mango Salad $4</li>
+            <li>Dorayaki $5</li>
+        </ul><br>
+
+        <h3>Drinks</h3>
+
+        <ul>
+            <li>lemon Iced Tea 2.99</li>
+            <li>Lemonade 1.99</li>
+            <li>Smoothie 2.99</li>
+            <li>Ramune 1.50</li>
+            <li>Water Free</li>
+        </ul>
+
+
+
+
+    </div>
+    <br><br>
+
+    <!-- FOOTER-->
+    <div id="footer">
+	<h3>Contact Information</h3>
+	<p>214-713-6104</p>
+	<p>thespice1@gmail.com</p>
+	<p id="locationHeader">Location: Downtown Dallas</p>
+</div>
+
+    </body>
+    <script src="./main.js"></script>
+</html>

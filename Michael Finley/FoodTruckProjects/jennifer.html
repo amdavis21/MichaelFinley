@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+    <html>
+    <head><link href="./style.css" rel="stylesheet" />
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+      body, html {
+      	height: 100%;
+      }
+
+      .hero-image {
+      	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2015/11/02/20/27/taco-1018962_1280.jpg");
+      	height: 50%;
+      	background-position: center;
+      	background-repeat: no-repeat;
+      	background-size: cover;
+      	position: relative;
+      }
+
+      .hero-text{text-align: center;
+      	position: absolute;
+      	top: 50%;
+      	left: 50%;
+      	transform: translate(-50%, -50%);
+      	color: white;
+      }
+      ul{
+      list-style-type: none;
+      width: 100%;
+      }
+
+      li{
+      float: left;
+      width: 25%;
+      }
+
+      .header:hover{
+      border-bottom: 4px solid black;
+      color: #66B1B7
+      }
+      /*    Id Styling */
+      #header{
+          padding-bottom: 40px;
+          background-color: #8BD8DE
+      }
+
+      #footer{
+      bottom: 0;
+      background-color: #89B1BD;
+      text-align: center;
+      text-shadow: #9B9FB5 1px 1px;
+      }
+</style>
+    </head>
+<body>
+  <form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">Jenn's sit and eat</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+
+<!-- ABOUT US -->
+     <div class="hero-image">
+	<div class="hero-text">
+	<h1>Jenn'sit and eat </h1>
+	<p>Where organic produce meets Mexican flavor!</p>
+	</div>
+</div>
+<div class="row">
+<div class="column">
+	<h2 id="aboutHeader">About Us</h2>
+	<p>At Jenn's sit and eat we have an out side siting eria and we try to make it a nice and clean space.We have food specials evry week.</p>
+</div>
+
+<div class="column">
+<h2>Founders</h2>
+<p>The founders name is Jennifer.Jenn' sit and eat is inspaierd by her perents. The way jennifer came up with the name Jenn's sit and eat is because people call her Jenn, Jenny, or Jlo but she likes Jenn more and she whants to have a palce for coustermers to eat that is how she came up with that name.</p>
+</div>
+
+
+<!-- MENU -->
+<div class="menu">
+<h2 id="menuHeader">Menu</h2>
+<h3>Entrees</h3>
+<ul>
+<li>pastor $1</li>
+<li>Asada tacos</li>
+<li>Carnitas tacos</li>
+<li>fajitaa</li>
+<li> Corn tortilla $1.50</li>
+<li> flower tortilla $2</li>
+<li> hand made tortilla $2</li>
+</ul><br>
+
+
+
+  <h3>Sides</h3>
+<ul>
+<li>Rice and beans $2</li>
+<li>Salad with green sauce $3</li>
+<li>Fries $2</li>
+<li>corn $0.50</li>
+</ul><br>
+<br>
+<h3>Desserts</h3>
+
+<ul>
+<li>Fruit salad $4</li>
+<li>Churros $3</li>
+<li>Flan $4</li>
+</ul><br>
+
+
+
+<h3>Drinks</h3>
+
+<ul>
+<li>Horchata $2</li>
+<li>Jamaica $2</li>
+<li>Water $2</li>
+<li>bottel coke $2</li>
+<li>can coke $1.50</li>
+</ul>
+</div><br><br>
+</div>
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>999-999-9999</p>
+	<p>sombrerotaco@example.com</p>
+	<p id="locationHeader">Location: Dallas Farmers Market</p>
+
+</div>
+</body>
+<script src="./main.js"></script>
+</html>

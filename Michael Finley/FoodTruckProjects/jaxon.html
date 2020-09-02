@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+body, html {
+	height: 100%;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+li{
+float: left;
+width: 25%;
+}
+li:hover{
+border-bottom:4px black;
+   color:#ffffff;
+}
+#header{
+    padding-bottom:40px;
+    background-color: purple;
+
+
+    }
+    .hero-image {
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.meatpoultry.com/ext/resources/MPImages/07-2019/071519/Nolan-Ryan-Hot-Dog.jpg?1563554021);
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+#footer{
+	bottom: 0;
+	background-color: purple;
+	text-align: center;
+} 
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">glizzy'boy</h1>
+	   <ul>
+        <li id="home">Home</li>
+        <li id="about">About Us</li>
+        <li id="menu">Menu</li>
+        <li id="location">Location</li>
+	   </ul>
+</div>
+<!-- ABOUT US -->
+
+ <div class="hero-image">
+        	<div class="hero-text">
+            	<h1>Glizzy boy</h1>
+            	<p>The best hot dogs in the U.S.A!</p>
+        	</div>
+        </div>
+ <div class="row">
+            <div class="column">
+            	<h2 id="aboutHeader">About Us</h2>
+            	<p>The truck is about giving back to people who dont have and is local so everyone can have come of my my good hot dogs.  </p>
+            </div>
+
+            <div class="column">
+                <h2>Founders</h2>
+                <p>The bussneiss is founded of this bussines is a 12 year old boy name jaxon that wanted to sell food to rais money for children hospital and 35% of the founds go to childrens hospital.</p>
+            </div>
+
+        </div>
+<div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+        </div>
+ <h3>Entrees</h3>
+            <ul>
+                <li>Po'boy $6.99</li>
+                <li> plant based hot dog $2</li>
+                <li>ATOMIC dog $3.99</li>
+                <li>Cinniomin bun wraped hot dog $2</li>
+            </ul>
+            <br>
+  <h3>Sides</h3>
+            <ul>
+                <li>chips $1</li>
+                <li>Salad $3</li>
+                <li>Fries $2</li>
+            </ul>
+            <br>
+
+
+            <h3>Desserts</h3>
+
+            <ul>
+                <li>cookies $4</li>
+                <li>Churros $4</li>
+                <li>kolachi $4</li>
+            </ul>
+            <br>
+ <h3>Drinks</h3>
+            <ul>
+                <li>sprite $2</li>
+                <li>pepsi $2</li>
+                <li>Water $2</li>
+            </ul>
+ <br>
+        <br>
+
+<!-- MENU -->
+
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>702-456-6789</p>
+	<p>jaxonA76@gmail.com</p>
+	<p id="locationHeader">Location: Dallas Farmers Market</p>
+
+
+</div>
+   </body>
+   <script src="./main.js"></script>
+</html>

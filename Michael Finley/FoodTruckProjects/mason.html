@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet" />
+        <style>@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+        body, html {
+        	height: 100%;
+        }
+
+        .hero-image {
+        	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.istockphoto.com/photos/bacon-egg-burger-picture-id1151450518");
+        	height: 50%;
+        	background-position: center;
+        	background-repeat: no-repeat;
+
+        	background-size: cover;
+        	position: relative;
+        }
+        .hero-text{text-align: center;
+        	position: absolute;
+        	top: 50%;
+        	left: 50%;
+        	transform: translate(-50%, -50%);
+        	color: white;
+        }
+        ul{
+        list-style-type: none;
+        width: 100%;
+        }
+
+        li{
+        float: left;
+        width: 23%;
+        margin:5px
+        }
+
+        li:hover{
+        border-bottom: 4px solid black;
+        color: #FFFFFF;
+        }
+
+        #header{
+        padding-bottom:40px;
+        background-color: #B08800;
+        }
+        .chicken{
+         display: flex;
+            flex-direction: row;
+        }
+        #footer{
+        	bottom: 0;
+        	background-color: #B00003;
+        	text-align: center;
+        }  </style>
+    </head>
+
+    <body>
+      <form>
+     <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+        <!-- HEADER -->
+        <div id="header">
+            <h1 id="homeHeader">Public Burger</h1>
+        <ul id="navList">
+            <li class="navItem" id="home">Home</li>
+            <li class="navItem" id="about">About Us</li>
+            <li class="navItem" id="menu">Menu</li>
+            <li class="navItem" id="location">Location</li>
+        </ul>
+        </div>
+
+        <!-- ABOUT US -->
+       <div class="hero-image">
+	    <div class="hero-text">
+	    <h1>PB'S</h1>
+	    <p>Where Flavor Happens!</p>
+	    </div>
+    </div>
+    <div class="row">
+<div class="column">
+	<h2 id="aboutHeader">About Us</h2>
+	<p>Public Burger food truck is a business for all Burger lovers made with the finest freshet produce and food, I wanted to start this truck so that people can have good quality food for a good price, and so people can be happy and feel safe and secure, we also have seating area so that people can meet others, I wanted people to explore there taste buds by trying the donut burger(Do-Burger), and the reason I have this exotic burger is becuase when I was younger I always wanted mix my fovorite food together, so this burger I kind of a representation of my child hood. Don't forget to try our Sweet sauce special!</p>
+</div>
+
+<div class="column">
+<h2>Founders</h2>
+<p>The Founder of PB's is Mason Finley, Growing up food was not what he was worried about he was worried about sports period. until he got older and his taste buds evolved and had a taste for everythng, especially burger and all kind of meats, so he thought what could he do with burgers and Public burger is where started, and then he knew burgers was definetly going to be his thing.</p>
+</div>
+
+</div>
+
+
+        <!-- MENU -->
+  <div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+        </div>
+        <h3>Entrees</h3>
+        <div class ="chicken" >
+            <ul>
+                <li>(REG-BURGER) regular burger, comes with, pickles,
+                lettuce, tomato, bacon, Ketchup or sweet sauce, soft drink ($4.00). </li>
+                <li> (CHEESE KING_)
+                cheese burger, comes with,cheese,
+                lettuce,pickles,
+                tomato,
+                bacon,
+                ketchup or sweet sauce, soft drink($4.00).</li>
+                <li>(DOUBLE DAWG) double cheese burger,comes with,cheese,
+                pickles, lettuce, tomato, bacon, ketchup or sweet sauce, soft drink($4.25)
+                .</li>
+                <li>(TRIPLE-_-B)
+                triple cheese burger, comes with, cheese,
+                tomato, lettuce, pickles, bacon,sweet sauce or ketchup soft drink
+                ($4.75).</li>
+                <li>(STEAK BURGER)  comes with,egg and steak sauce, buns toasted or not. (on the side or on the steak)soft drink($7.75).</li>
+                <li>(DO-BuRrRrRrRgEEeR Special)
+               Donut burger, glaze or no glaze,comes with cheeses, lettuce ($6.00) soft drink. </li>
+               <li>(V-Burger) veggie burger, with lettuce, tomato, and pickles soft drink($5.00).<li>
+                   <li>(CESAR SALAD)
+                   cesar dressing,tomato,bacon bits,carrots,crouton,sunflower seeds and boiled eggs($6.00).</li>
+            </ul>
+            </div>
+            <br>
+       <h3>Sides</h3>
+            <ul>
+                <li> DELGIHT FRIES(Truffle or none)$3.00</li>
+                <li> FREID PICKLES FUN $3.00</li>
+                <li> OCEAN OKRA(fried or not) $3.00</li>
+                <li> CROWN HASHBROWN $3.25</li>
+            </ul>
+            <br>
+             <h3>Desserts</h3>
+
+            <ul>
+                <li>FLY FRIED OREOS $3.25</li>
+                <li>BROWNS ICE-CREAM (comes with brownie)$3.30</li>
+                <li>FuNzy FUNNEL CAKE (Toping or not)$3.25</li>
+                <li>SuNNY SUNDAE (Includes: cherries, peacans, and hot fudge)</li>
+            </ul>
+            <br>
+        <h3>Shakes/drinks</h3>
+            <ul>
+                <li>VIVID VINILLA $3.00</li>
+                <li>ChIllY CHOCOLATE $3.00</li>
+                <li>SUPER STRAWBERRY $3.00</li>
+                <li>WOOPY WEDDING CAKE $3.00</li>
+                <li>SOFT DRINKS: Coke, Dr.pepper, Sprite, Diet coke, Mountain Dew, Ginger Ale, Blue or Red Powerade.</li>
+            </ul>
+            <br>
+
+        <!-- FOOTER-->
+        <div id="footer">
+        <h3>Contact Information</h3>
+        <p>214-694-4205</p>
+        <p>PublicB@gmail.com</p>
+        <p id="locationHeader">Location: Legacy West</p>
+        </div>
+
+    </body>
+    <script src="./main.js"></script>
+</html>

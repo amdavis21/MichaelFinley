@@ -1,0 +1,128 @@
+<html>
+<head><link href="./style.css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+body, html {
+	height: 100%;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.app.goo.gl/F8YfzYm2o8qDjmkHA');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.hero-text{text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+ul{
+list-style-type: none;
+width: 100%;
+}
+
+li{
+float: left;
+width: 25%;
+}
+
+li:hover{
+border-bottom: 4px solid black;
+color: #FFFFFF;
+}
+
+#header{
+padding-bottom:40px;
+background-color: blue;
+}
+#footer{
+	bottom: 0;
+	background-color: #0808F1;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+<!-- HEADER -->
+<div id="header">
+<h1 id="homeHeader">T iny goodness</h1>
+	<ul>
+	<li id="home">Home</li>
+	<li id="about">About Us</li>
+	<li id="menu">Menu</li>
+	<li id="location">Location</li>
+	</ul>
+</div>
+<!-- ABOUT US -->
+<div class="hero-image">
+	<div class="hero-text">
+	<h1>Sombreros</h1>
+	<p>Where organic produce meets Mexican flavor!</p>
+	</div>
+</div><div class="row">
+<div class="column">
+	<h2 id="aboutHeader">About Us</h2>
+	<p>Sombreros Taco Truck consists of authentic mexican food blended with local spices. Our main signature dish is our asada taco. Our goal is to spread our culture through our community and the city at large by bringing together delicious hispanic traditions.</p>
+</div>
+
+<div class="column">
+<h2>Founders</h2>
+<p>tiny goodness</p>
+</div>
+
+</div>
+
+<!-- MENU -->
+<div class="menu">
+
+            <h2 id="menuHeader">Menu</h2>
+
+        <h3>Entrees</h3>
+<ul>
+<li>pizza chees $2</li>
+<li>pizza peperony $2</li>
+<li>pizza taco meet $2</li>
+<li>pizza berger $2</li>
+
+</ul><br>
+
+
+
+<h3>Sides</h3>
+<ul>
+<li>saled $1</li>
+<li>baked beans $3</li>
+<li>Fries $2</li>
+</ul><br>
+
+
+
+<h3>Desserts</h3>
+
+<ul>
+<li>Fruit salad $4</li>
+<li>Churros $4</li>
+<li>Flan $4</li>
+</ul><br>
+</div>
+<!-- FOOTER-->
+<div id="footer">
+	<h3>Contact Information</h3>
+	<p>469-671-1812</p>
+	<p>Tinygoodness1234@gmail.com</p>
+	<p id="locationHeader">dalles texes</p>
+</div>
+
+
+</body>
+<script src="./main.js"></script>
+</html>
